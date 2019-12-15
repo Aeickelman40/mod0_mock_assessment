@@ -1,0 +1,14 @@
+Class: Boat
+
+Attributes:
+totalPassengers (integer)
+color (string)
+motorType (string)
+permit (array)
+floatable (boolean)
+
+Methods:
+addPermit (append a unique permit to the permit array)
+paint (change the color attribute)
+patchHole (changes the floatable attribute to 'true')
+walkThePlank (remove one passenger to the currentPassengers attribute)
