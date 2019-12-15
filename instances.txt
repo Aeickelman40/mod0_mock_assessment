@@ -1,0 +1,24 @@
+Object: Titanic
+
+Attributes:
+color: "Grey"
+motorType: "Steam Engine"
+floatable: false
+...
+
+Methods:
+patchHole: floatable = true
+paint: color = "Red"
+...
+
+
+Object: Sailboat
+
+Attributes:
+motorType: "Sails"
+totalPassengers: 5
+...
+
+Methods:
+walkThePlank: 5 - 1 = 4
+addPermit: ['new permit', 'permit 1', 'permit 2', 'permit 3']
